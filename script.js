@@ -6,7 +6,7 @@ const sessionResources = {
             {
                 type: 'pdf',
                 name: 'Logic Concepts (Mind Map).pdf',
-                url: 'assets/mind-map.pdf',
+                url: 'assets/_resource_mind_map_-_memory_card_20250701114400_ZQWyMOB.pdf',
                 icon: '📄'
             },
             {
