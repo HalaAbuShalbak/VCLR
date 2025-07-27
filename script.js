@@ -40,6 +40,18 @@ const sessionResources = {
                 icon: '🧩'
             },
             {
+                type: 'link',
+                name: 'Problem Solving Game - Maze ',
+                url: 'https://blockly.games/maze?lang=en',
+                icon: '🧩'
+            },
+            {
+                type: 'link',
+                name: 'Problem Solving Game - Turtle ',
+                url: 'https://blockly.games/turtle?lang=en',
+                icon: '🧩'
+            },
+            {
                 type: 'pdf',
                 name: 'Intro To AI.pdf',
                 url: 'assets/Intro_To_AI.pdf',
