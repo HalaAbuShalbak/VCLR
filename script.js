@@ -4,6 +4,12 @@ const sessionResources = {
         title: 'Think as coder',
         resources: [
             {
+                type: 'link',
+                name: 'Logic Concepts (Mind Map Game)',
+                url: 'https://www.helpfulgames.com/subjects/brain-training/memory.html',
+                icon: '📄'
+            },
+            {
                 type: 'pdf',
                 name: 'Logic Concepts (Mind Map).pdf',
                 url: 'assets/_resource_mind_map_-_memory_card_20250701114400_ZQWyMOB.pdf',
