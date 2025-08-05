@@ -175,6 +175,14 @@ const sessionResources = {
       },
     ],
   },
+  "week2-day4-1": {
+    title: "Prepare Presentation & Train",
+    resources: [],
+  },
+  "week2-day5-1": {
+    title: "Final Day Presentation",
+    resources: [],
+  },
 };
 
 // DOM elements
@@ -228,33 +236,40 @@ function openModal(sessionId) {
   resourceList.innerHTML = "";
 
   // Add resources to modal
-  sessionData.resources.forEach((resource) => {
-    const resourceItem = document.createElement("div");
-    resourceItem.className = `resource-item ${resource.type}`;
+  if (sessionData.resources.length === 0) {
+    const noResourceMsg = document.createElement("div");
+    noResourceMsg.className = "no-resources";
+    noResourceMsg.textContent = "No resources available";
+    resourceList.appendChild(noResourceMsg);
+  } else {
+    sessionData.resources.forEach((resource) => {
+      const resourceItem = document.createElement("div");
+      resourceItem.className = `resource-item ${resource.type}`;
 
-    const icon = document.createElement("span");
-    icon.className = "resource-icon";
-    icon.textContent = resource.icon;
+      const icon = document.createElement("span");
+      icon.className = "resource-icon";
+      icon.textContent = resource.icon;
 
-    const link = document.createElement("a");
-    link.href = resource.url;
-    link.textContent = resource.name;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
+      const link = document.createElement("a");
+      link.href = resource.url;
+      link.textContent = resource.name;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
 
-    // Add special handling for PDFs - open in new tab
-    if (resource.type === "pdf") {
-      link.addEventListener("click", function (e) {
-        e.preventDefault();
-        // Open PDF in new tab
-        window.open(resource.url, "_blank");
-      });
-    }
+      // Add special handling for PDFs - open in new tab
+      if (resource.type === "pdf") {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          // Open PDF in new tab
+          window.open(resource.url, "_blank");
+        });
+      }
 
-    resourceItem.appendChild(icon);
-    resourceItem.appendChild(link);
-    resourceList.appendChild(resourceItem);
-  });
+      resourceItem.appendChild(icon);
+      resourceItem.appendChild(link);
+      resourceList.appendChild(resourceItem);
+    });
+  }
 
   // Show modal with animation
   modal.style.display = "block";
