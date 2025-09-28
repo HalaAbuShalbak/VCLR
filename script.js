@@ -21,12 +21,12 @@ const sessionResources = {
         url: "https://canva.com",
         icon: "🎨",
       },
-      {
-        type: "link",
-        name: "Installation Guide",
-        url: "https://jeelcode.com/vibe/Installaion/",
-        icon: "⚙️",
-      },
+      // {
+      //   type: "link",
+      //   name: "Installation Guide",
+      //   url: "https://jeelcode.com/vibe/Installaion/",
+      //   icon: "⚙️",
+      // },
     ],
   },
 
@@ -39,18 +39,18 @@ const sessionResources = {
         url: "assets/Problem Solving.pdf",
         icon: "🧩",
       },
-      {
-        type: "link",
-        name: "Problem Solving Game - Maze ",
-        url: "https://blockly.games/maze?lang=en",
-        icon: "🧩",
-      },
-      {
-        type: "link",
-        name: "Problem Solving Game - Turtle ",
-        url: "https://blockly.games/turtle?lang=en",
-        icon: "🧩",
-      },
+      // {
+      //   type: "link",
+      //   name: "Problem Solving Game - Maze ",
+      //   url: "https://blockly.games/maze?lang=en",
+      //   icon: "🧩",
+      // },
+      // {
+      //   type: "link",
+      //   name: "Problem Solving Game - Turtle ",
+      //   url: "https://blockly.games/turtle?lang=en",
+      //   icon: "🧩",
+      // },
       {
         type: "pdf",
         name: "Intro To AI.pdf",
@@ -92,18 +92,19 @@ const sessionResources = {
         url: "https://jeelcode.com/vibe/HTML/",
         icon: "🌐",
       },
-      {
+         {
         type: "link",
-        name: "Dressing Your Webpage: Styling Essentials with CSS",
-        url: "https://jeelcode.com/vibe/CSS/",
-        icon: "🎨",
-      },
+        name: "Adding lgoc and fucntionality to your dynamic web page",
+        url: "assets/JavaScript_Material",
+        icon: "🧠",
+      },                                   
       {
         type: "pdf",
         name: "Build your Memory Card Game",
         url: "assets/Memory Card Game Guide.pdf",
         icon: "🎮",
       },
+     
       {
         type: "link",
         name: " Launching Your Webpage to the World: Netlify ",
