@@ -95,7 +95,7 @@ const sessionResources = {
          {
         type: "link",
         name: "Adding lgoc and fucntionality to your dynamic web page",
-        url: "assets/JavaScript_Material",
+        url: "assets/JavaScript_Material.pdf",
         icon: "🧠",
       },                                   
       {
