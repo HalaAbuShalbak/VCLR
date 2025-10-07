@@ -33,12 +33,12 @@ const sessionResources = {
   "week1-day2-1": {
     title: "Solve It Smartly",
     resources: [
-      {
-        type: "pdf",
-        name: "Problem Solving.pdf",
-        url: "assets/Problem Solving.pdf",
-        icon: "🧩",
-      },
+      // {
+      //   type: "pdf",
+      //   name: "Problem Solving.pdf",
+      //   url: "assets/Problem Solving.pdf",
+      //   icon: "🧩",
+      // },
       // {
       //   type: "link",
       //   name: "Problem Solving Game - Maze ",
