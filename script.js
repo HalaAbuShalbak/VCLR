@@ -92,19 +92,19 @@ const sessionResources = {
         url: "https://jeelcode.com/vibe/HTML/",
         icon: "🌐",
       },
+        {
+        type: "link",
+        name: "Styling Your Webpage: The Power of CSS",
+        url: "https://jeelcode.com/vibe/CSS/",
+        icon: "🌐",
+      },
     
          {
         type: "link",
         name: "Adding logic and fucntionality to your dynamic web page",
         url: "./js",
         icon: "🧠",
-      },      
-         {
-        type: "link",
-        name: "Adding logic and fucntionality to your dynamic web page",
-        url: "assets/JavaScript_Material.pdf",
-        icon: "🧠",
-      },                              
+      },                             
       {
         type: "pdf",
         name: "Build your Memory Card Game",
